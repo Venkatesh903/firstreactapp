@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+h1, p {
+  font-family: Lato;
+}
+form {
+  padding: 10px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -27,6 +33,17 @@
 .App-link {
   color: #61dafb;
 }
+.header{
+  width: 100%;
+  background-color: #282c34;
+  font-size: xxx-large;
+  /* border:solid 3px #d9d1d1; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+}
+.textColor{
+  color:white;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +52,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.submit{
+  margin-left: 1rem;
 }
